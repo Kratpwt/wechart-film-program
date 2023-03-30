@@ -1,0 +1,35 @@
+<!--pages/first/first.wxml-->
+  <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <image src="{{item}}"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+<view>
+      <view class="dy">豆瓣电影
+        <view class="cd">成都市▽</view>
+      </view>
+      <view class="jp">必属精品！</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+<view>
+      <view class="nav1">
+            <navigator url="/pages/list/list" hover-class="navigator-hover" class="nav1"><view class="ry">正在热映   ></view></navigator>
+      </view>
+</view>
+<view>{{message}}</view>

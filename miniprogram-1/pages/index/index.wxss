@@ -1,0 +1,27 @@
+/* pages/index/index.wxss */
+image{
+  width: 300px;
+  height: 400px;
+  padding-left: 37px;
+}
+.ti1{
+  font-weight: 800;
+  font-size: 30px;
+  padding-left: 65px;
+}
+.ti2{
+  color: grey;
+}
+.ti3{
+  color: grey;
+}
+.ti4{
+  font-weight: 800;
+  font-size: 25px;
+}
+.ti5{
+  color: grey;
+}
+.ti0{
+  color: grey;
+}

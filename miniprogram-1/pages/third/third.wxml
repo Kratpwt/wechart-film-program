@@ -1,0 +1,4 @@
+<view>{{message}}</view>
+<view>{{arr}}</view>
+<view>{{boolean}}</view>
+<button bindlongpress="top">{{message}}</button>

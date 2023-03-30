@@ -1,0 +1,8 @@
+<!--pages/movies/movie.wxml-->
+<image src="{{list.poster}}"></image>
+<view class="ti1">{{list.title}}</view>
+<view class="ti0">评分:{{list.rating}}</view>
+<view class="ti2">导演：{{list.directors}}</view>
+<view class="ti3">{{list.actors}}</view>
+<view class="ti4">简介：{{list.plot_simple}}</view>
+

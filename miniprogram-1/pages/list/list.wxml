@@ -1,0 +1,9 @@
+<!--pages/list/list.wxml-->
+<navigator url="/pages/movies/movie?movieId={{item.movieId}}"  class='box' wx:for="{{list}}" wx:key="*this">
+  <view class="img">
+    <image src="{{item.pic_url}}"></image>
+  </view>
+  <view class="text">
+    <view>{{item.movieName}}</view>
+  </view>
+</navigator>

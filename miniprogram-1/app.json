@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/first/first",
+    "pages/index/index",
+    "pages/third/third",
+    "pages/logs/logs",
+    "pages/movies/movie"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "确实是属于我的电影程序",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,36 @@
+/* pages/first/first.wxss */
+swiper-item{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+}
+image{
+  height: 100%;
+  width: 100%;
+}
+.dy{
+  font-size: 35px;
+  padding-top: 8px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+.jp{
+  font-size: 20px;
+  padding-left: 20px;
+  color: grey;
+}
+.cd{
+  font-size: 20px;
+  float: right;
+  padding-top: 20px;
+  padding-right: 15px;
+  font-weight: 800;
+}
+.nav1{
+  font-size: 27px;
+  padding-top: 5px;
+  background-color: #A8A8A8;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
